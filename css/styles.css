@@ -10,6 +10,7 @@ Universal Styling
 
 body{
     background: #14071E;
+    position: fixed;
 }
 
 nav ul{
@@ -34,4 +35,54 @@ a:hover {
 /*=====================
  Styling
 ======================*/
+.items{
+    position: relative;
+}
 
+.notebook 
+.nb{
+    position: absolute;
+    bottom: 100px;
+    left: 700px;
+    width: 280px;
+}
+
+.redpen{
+    width: 200px;
+    right: ;
+}
+
+p{
+    animation-name: jump;
+    animation-duration: .8s;
+    animation-direction: alternate;
+    animation-timing-function: steps(2, end);
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 400px;
+    left: 760px;
+    width: 280px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.i-am{
+    color: red;
+    
+}
+
+
+@keyframes jump {
+    20%,
+    100% {
+      transform: translate(0, 3px);
+    }
+  
+    0% {
+      transform: translate(0, 0px);
+    }
+    10% {
+      transform: translate(0, 6px);
+    }
+  }
+  
