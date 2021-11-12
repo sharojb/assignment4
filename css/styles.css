@@ -1,10 +1,13 @@
+/*====================
+Universal Styling
+=====================*/
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-html,
 body{
     background: #14071E;
 }
@@ -27,3 +30,8 @@ a {
 a:hover {
     color: coral;
 }
+
+/*=====================
+ Styling
+======================*/
+
