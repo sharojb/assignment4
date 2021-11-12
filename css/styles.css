@@ -10,7 +10,6 @@ Universal Styling
 
 body{
     background: #14071E;
-    position: fixed;
 }
 
 nav ul{
@@ -26,14 +25,17 @@ nav ul li{
 a {
     text-decoration: none;
     color: white;
+    padding-right: 50px;
 }
 
 a:hover {
     color: coral;
 }
 
+
+
 /*=====================
- Styling
+ Wed Styling
 ======================*/
 .items{
     position: relative;
@@ -42,36 +44,77 @@ a:hover {
 .notebook 
 .nb{
     position: absolute;
-    bottom: 100px;
-    left: 700px;
+    left: 600px;
     width: 280px;
+    top: 50px;
 }
 
 .redpen{
     width: 200px;
-    right: ;
+    position: fixed;
 }
 
-p{
+.possible{
     animation-name: jump;
     animation-duration: .8s;
     animation-direction: alternate;
     animation-timing-function: steps(2, end);
     animation-iteration-count: infinite;
     position: absolute;
-    bottom: 400px;
-    left: 760px;
+    bottom: 350px;
+    left: 660px;
     width: 280px;
     font-weight: bold;
     font-size: x-large;
 }
 
 .i-am{
-    color: red;
-    
+    color: red; 
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.greenpen{
+    float: left;
+    margin: 0 20px 0 0;
 }
 
 
+h3{
+    font-family: 'Over the Rainbow', cursive;
+    color: coral;
+    padding: 0 0 0 10px;
+}
+
+.text{
+    color: white;
+    margin: 170px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================
+ Animation
+======================*/
 @keyframes jump {
     20%,
     100% {
