@@ -1,11 +1,11 @@
 # Assignment 4 | Last updated 11/13/2021
-Second Semester MMC5277
+| Second Semester, course MMC5277 |
 
-This is example code will create a better practice to what we learned through the past weeks using only CSS and HTML.
+This example code will create a better practice to what we learned through the past weeks using only CSS and HTML.
 
 ## Code
 
-In order for this to work correctly, please make sure you create a div as follows:
+In order for this to work correctly, please make sure you create a `<div>` as follows in HTML:
 
 ```html
 <div class="items">
@@ -25,7 +25,7 @@ The `<div>` have 2 different classes:
     + `redpen` to identify image of red color.
     + `nb` to identify image of notebook.
 
-*If you would like to add an image to the `main` content, it __must__ be within the `items` div with its own identifying individual class.*
+*If you would like to add an image to the `main` content, it __must__ be within the `items` div with its own identifying individual classes.*
 ## Animations
 
 If you are going to add an animation, your CSS should look like this: 
