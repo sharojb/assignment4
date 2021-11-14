@@ -32,8 +32,6 @@ a:hover {
     color: coral;
 }
 
-
-
 /*=====================
  Wed Styling
 ======================*/
@@ -55,11 +53,8 @@ a:hover {
 }
 
 .possible{
-    animation-name: jump;
-    animation-duration: .8s;
+    animation: jump .8s steps(2, end) infinite;
     animation-direction: alternate;
-    animation-timing-function: steps(2, end);
-    animation-iteration-count: infinite;
     position: absolute;
     bottom: 350px;
     left: 660px;
